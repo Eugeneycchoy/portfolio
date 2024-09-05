@@ -1,0 +1,71 @@
+/* Header section */
+.text-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50vh;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 4rem;
+}
+
+.text-container h2 {
+  color: #ecdfcc;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.text-container h1 {
+  font-family: "DM Serif Text", serif;
+  font-size: 5.8rem;
+  margin-bottom: 2rem;
+}
+
+.text-container > p {
+  font-size: 2rem;
+}
+
+.socials-container {
+  min-width: 100%;
+  min-height: 10rem;
+}
+
+.socials-container i {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #697565;
+}
+
+.project-section {
+  min-height: 90vh;
+  min-width: 100%;
+}
+
+#recent-projects,
+.contact-section h2 {
+  min-width: 100%;
+  font-family: "DM Serif Text", serif;
+  font-size: 2rem;
+}
+
+.project-container {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.project {
+  width: 13rem;
+  height: 18rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  background-image: url(/images/dummy.jpg);
+  background-size: cover;
+}
+
+.project:hover {
+  cursor: pointer;
+  margin-top: -5px;
+  filter: brightness(70%);
+  transition: 0.3s ease-in-out;
+}

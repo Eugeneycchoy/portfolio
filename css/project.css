@@ -1,0 +1,38 @@
+.project-catagory {
+  min-width: 100%;
+  font-family: 'DM Serif Text', serif;
+  font-size: 3rem;
+  margin: 9rem auto;
+}
+
+.project-container {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 10rem;
+}
+
+.project-text-container h3 {
+  font-family: 'DM Serif Text', serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.project-text-container p {
+  line-height: 1.3;
+}
+
+.project-container img {
+  height: 13rem;
+}
+
+.view-project-btn {
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.view-project-btn a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+}

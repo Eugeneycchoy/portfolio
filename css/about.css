@@ -1,0 +1,50 @@
+.about-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  min-height: 100vh;
+  margin-top: 5rem;
+}
+
+h1 {
+  font-family: "DM Serif Text", serif;
+  font-size: 5.8rem;
+  margin-bottom: 5rem;
+}
+
+.img-text {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.img-text img {
+  width: 17rem;
+}
+
+.img-text p {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.img-text-flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.text {
+  max-width: 38rem;
+  margin-top: 2rem;
+}
+
+.text h2 {
+  font-size: 2rem;
+  font-family: "DM Serif Text", serif;
+  margin-bottom: 1.5rem;
+}
+
+.text p {
+  font-size: 1.4rem;
+}
